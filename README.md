@@ -1,4 +1,4 @@
-Use a Jupyter notebook to learn how to code on a Raspberry Pi
+Learn Raspberry Pi coding with Jupyter
 =====================================
 
 The software for running and interacting with notebooks is **jupyter**. There is some historical background. Galileo wrote and illustrated the moons of Jupiter in a seminal article of scientific discourse and it provides for the inspiration of this project. Imagine being one of the first people to hold the illustration of the moons of Jupiter in one of the first scientific notebooks.
