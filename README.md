@@ -27,3 +27,5 @@ jupyter notebook learner1.ipynb
 
 A new browser window will appear and show the notebook so you can start coding. Watch for the magic.
 
+You can view the exercises as well using [nbviewer](http://nbviewer.jupyter.org/github/bmidgley/pi-learner/blob/master/learner1.ipynb)
+
