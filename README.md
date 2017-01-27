@@ -29,3 +29,8 @@ A new browser window will appear and show the notebook so you can start coding. 
 
 You can view the exercises as well using [nbviewer](http://nbviewer.jupyter.org/github/bmidgley/pi-learner/blob/master/learner1.ipynb)
 
+To use control-; and control-. to hide and show the banner:
+
+```
+cp custom.js ~/.ipython/profile_name/static/custom/
+```
