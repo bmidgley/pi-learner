@@ -25,9 +25,14 @@ jupyter notebook learner1.ipynb
 
 A new browser window will appear and show the notebook so you can start coding. Watch for the magic.
 
-You can view the exercises as well using [nbviewer](http://nbviewer.jupyter.org/github/bmidgley/pi-learner/blob/master/learner1.ipynb)
+Fine tuning
+=====
 
-To use control-; and control-. to hide and show the banner:
+Each exercise has a link to the next one. When you click the link, the new exercise appears in its own tab. You may want to close the old tab so the Pi can keep up with all the things you are doing.
+
+You can view the exercises without the live coding [here](http://nbviewer.jupyter.org/github/bmidgley/pi-learner/blob/master/learner1.ipynb)
+
+To use control-; and control-. to hide and show the banner (needed on a small screen like the LCD):
 
 ```
 cp custom.js ~/.ipython/profile_name/static/custom/
