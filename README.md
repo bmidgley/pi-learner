@@ -10,14 +10,12 @@ Note the way we are using GPIOs and some packages below requires the latest syst
 Open a shell. First, install jupyter and some requirements:
 
 ```
-sudo apt-get install python3-pip
+sudo apt-get install -y python3-pip
 sudo pip3 install notebook ipywidgets
 sudo jupyter nbextension enable --py --sys-prefix widgetsnbextension
 ```
 
-Hit enter when asked if you want to install dependencies.
-
-Then download this notebook and run it.
+Clone this repo and run it in Jupyter.
 
 ```
 git clone https://github.com/bmidgley/pi-learner.git
