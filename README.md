@@ -35,5 +35,5 @@ You can view the exercises without the live coding [here](http://nbviewer.jupyte
 To use control-; and control-. to hide and show the banner (needed on a small screen like the LCD):
 
 ```
-cp custom.js ~/.ipython/profile_name/static/custom/
+cp custom.js ~/.ipython/profile_default/static/custom/
 ```
