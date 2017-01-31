@@ -1,21 +1,10 @@
-$([IPython.events]).on('notebook_loaded.Notebook', function(){
-    $('#header').hide();
-    IPython.keyboard_manager.command_shortcuts.add_shortcut('ctrl-;', function (event) {
-        if (IPython.notebook.mode == 'command') {
-            $('#header').toggle();
-            return false;
-        }
-        return true;
-    });
-
-    IPython.keyboard_manager.command_shortcuts.add_shortcut('ctrl-.', function (event) {
-        if (IPython.notebook.mode == 'command') {
-            $('#header').show();
-            $('#header-container').toggle();
-            $('#maintoolbar').toggle();
-            return false;
-        }
-        return true;
-    });
-
+define(['base/js/events'], function(events) {
+  events.on('app_initialized.NotebookApp', function () {
+    console.log('custom.js: hiding header and toolbar');
+    $('#header-container').toggle();
+    $('.header-bar').toggle();
+    $('div#maintoolbar').toggle();
+    events.trigger('resize-header.Page');
+  });
 });
+
