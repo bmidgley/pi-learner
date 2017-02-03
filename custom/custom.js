@@ -4,6 +4,7 @@ define(['base/js/events'], function(events) {
     $('#header-container').toggle();
     $('.header-bar').toggle();
     $('div#maintoolbar').toggle();
+    $('#site').prepend($("#header").detach());
     events.trigger('resize-header.Page');
   });
 });
