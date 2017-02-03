@@ -32,9 +32,17 @@ Each exercise has a link to the next one. When you click the link, the new exerc
 
 You can view the exercises without the live coding [here](http://nbviewer.jupyter.org/github/bmidgley/pi-learner/blob/master/learner1.ipynb)
 
-To use control-; and control-. to hide and show the banner (needed on a small screen like the LCD), copy these custom settings and restart jupyter:
+To start with a minimal header that can be scrolled offscreen, copy these custom settings and restart jupyter:
 
 ```
 mkdir -p ~/.jupyter/custom
 cp custom/* ~/.jupyter/custom/
 ```
+
+If you are using an LCD with limited space, close chromium after it launches and relaunch with this:
+
+```
+chromium-browser --kiosk http://localhost:8888/notebooks/learner1.ipynb
+```
+
+This will use the whole screen and combined with the custom control above, will make the small screen much more usable.
