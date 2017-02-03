@@ -32,8 +32,9 @@ Each exercise has a link to the next one. When you click the link, the new exerc
 
 You can view the exercises without the live coding [here](http://nbviewer.jupyter.org/github/bmidgley/pi-learner/blob/master/learner1.ipynb)
 
-To use control-; and control-. to hide and show the banner (needed on a small screen like the LCD):
+To use control-; and control-. to hide and show the banner (needed on a small screen like the LCD), copy these custom settings and restart jupyter:
 
 ```
-cp custom.js ~/.ipython/profile_default/static/custom/
+mkdir -p ~/.jupyter/custom
+cp custom/* ~/.jupyter/custom/
 ```
