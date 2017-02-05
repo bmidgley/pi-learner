@@ -39,10 +39,10 @@ mkdir -p ~/.jupyter/custom
 cp custom/* ~/.jupyter/custom/
 ```
 
-If you are using an LCD with limited space, close chromium after it launches and relaunch with this:
+If you are using an LCD with limited space, pre-launch chromium in kiosk mode:
 
 ```
-chromium-browser --kiosk http://localhost:8888/notebooks/learner1.ipynb
+chromium-browser --kiosk & jupyter notebook learner1.ipynb
 ```
 
 This will use the whole screen and combined with the custom control above, will make the small screen much more usable.
