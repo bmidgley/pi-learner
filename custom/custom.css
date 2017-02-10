@@ -4,3 +4,11 @@ div#notebook{
 div#site{
   height: 100% !important;
 }
+.output_wrapper, .output {
+    height:auto !important;
+    max-height:1000px;  /* your desired max-height here */
+}
+.output_scroll {
+    box-shadow:none !important;
+    webkit-box-shadow:none !important;
+}
