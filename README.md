@@ -10,7 +10,7 @@ Note the way we are using GPIOs and some packages below requires the latest syst
 Open a shell. First, install jupyter and some requirements:
 
 ```
-sudo apt-get install -y python3-pip
+sudo pip3 install --upgrade pip
 sudo pip3 install notebook ipywidgets
 sudo jupyter nbextension enable --py --sys-prefix widgetsnbextension
 ```
@@ -46,3 +46,22 @@ chromium-browser --kiosk & jupyter notebook learner1.ipynb
 ```
 
 This will use the whole screen and combined with the custom control above, will make the small screen much more usable.
+
+If your pi is not connected to a monitor, you can use it over the network:
+
+```
+jupyter notebook --generate-config
+vi ~/.jupyter/jupyter_notebook_config.py
+```
+
+Now uncomment the ip and open_browser lines so they have:
+
+```c.NotebookApp.ip = '0.0.0.0'```
+
+and
+
+```c.NotebookApp.open_browser = False```
+
+then run the exercises above:
+
+```jupyter notebook learner1.ipynb```
