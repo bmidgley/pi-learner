@@ -47,7 +47,7 @@ chromium-browser --kiosk & jupyter notebook learner1.ipynb
 
 This will use the whole screen and combined with the custom control above, will make the small screen much more usable.
 
-If your pi is not connected to a monitor, you can use it over the network:
+If your pi is not connected to a monitor, you can ssh to it and use it over the network:
 
 ```
 jupyter notebook --generate-config
@@ -65,3 +65,5 @@ and
 then run the exercises above:
 
 ```jupyter notebook learner1.ipynb```
+
+It will print a message which is the URL you should use to reach the notebook server. Put that in a browser and you can continue with the exercise.
