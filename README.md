@@ -10,7 +10,7 @@ Note the way we are using GPIOs and some packages below requires the latest syst
 Open a shell. First, install jupyter and some requirements:
 
 ```
-sudo pip3 install --upgrade pip
+sudo apt-get install -y python3-pip
 sudo pip3 install notebook ipywidgets
 sudo jupyter nbextension enable --py --sys-prefix widgetsnbextension
 ```
