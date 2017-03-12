@@ -1,9 +1,9 @@
 Learn Raspberry Pi coding with Jupyter
 =====================================
 
-The software for running and interacting with notebooks is **jupyter**. There is some historical background. Galileo wrote and illustrated the moons of Jupiter in a seminal article of scientific discourse and it provides for the inspiration of this project. Imagine being one of the first people to hold the illustration of the moons of Jupiter in one of the first scientific notebooks.
+The software for running and interacting with notebooks is **jupyter**. There is some historical inspiration. Galileo wrote and illustrated the moons of Jupiter in a seminal article of scientific discourse and it provides for the inspiration for the jupyter project. We'll use jupyter to collaborate on a notebook about programming and building circuits on a Raspberry Pi. 
 
-With that pioneering image in mind, try to get through some tedious setup.
+Imagine being one of the first people to hold the illustration of the moons of Jupiter in one of the first scientific notebooks. With that pioneering image in mind, try to get through some tedious setup.
 
 Note the way we are using GPIOs and some packages below requires the latest system software, Raspian, installed on a Raspberry Pi 2 or newer. If you don't already have it, you can get Raspbian using [noobs](https://www.raspberrypi.org/downloads/noobs/) and install it using the [instructions](https://learn.adafruit.com/setting-up-a-raspberry-pi-with-noobs/download-noobs).
 
